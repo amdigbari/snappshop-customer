@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "design-system": "*",
+    "storybook": "*",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -21,6 +22,7 @@
     "eslint": "8.19.0",
     "eslint-config-custom": "*",
     "next-transpile-modules": "^9.0.0",
+    "sass": "^1.53.0",
     "tsconfig": "*",
     "typescript": "4.7.4"
   }
