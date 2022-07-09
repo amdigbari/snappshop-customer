@@ -1,0 +1,15 @@
+# build
+**/.next/*
+
+# project configs
+package.json
+tsconfig.json
+
+# node_modules
+**/node_modules/*
+
+# public routes
+public/*
+
+# turbo routes
+**/.turbo/*
