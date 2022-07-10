@@ -8,6 +8,7 @@
     "start": "next start",
     "test": "jest",
     "test:watch": "jest --watch",
+    "cypress": "cypress open",
     "lint": "yarn lint:scripts; yarn lint:styles; yarn lint:json;",
     "lint:scripts": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:styles": "stylelint '**/*.{css,scss}'",

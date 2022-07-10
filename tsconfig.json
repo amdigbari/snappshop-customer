@@ -10,7 +10,7 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.[jt]s?(x)"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules"
