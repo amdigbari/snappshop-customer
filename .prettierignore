@@ -9,3 +9,6 @@ public/*
 
 # turbo routes
 **/.turbo/*
+
+# testing
+**/coverage/*

@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Button = () => {
-  return (
-    <button>Local Button</button>
-  )
+interface IButtonProps {
+  title?: string
+}
+
+export const Button = ({ title = 'Local Button' }: IButtonProps) => {
+  return <button>{title}</button>
 }
