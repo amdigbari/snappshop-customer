@@ -3,16 +3,9 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@sui/*": [
-        "../../../packages/storybook/src/*"
-      ]
+      "@sui/*": ["../../../packages/storybook/src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "src/**/*"],
+  "exclude": ["node_modules"]
 }
