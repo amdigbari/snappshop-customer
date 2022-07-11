@@ -11,7 +11,7 @@ const customJestConfig = {
   ...customConfig,
   moduleDirectories: ['node_modules', '<rootDir>/src/'],
   moduleNameMapper: {
-    '^@sui/(.*)$': '<rootDir>../../packages/storybook/src/$1',
+    '^@share/(.*)$': '<rootDir>../../packages/share/src/$1',
   },
 }
 

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@sui/*": ["../../../packages/storybook/src/*"]
+      "@share/*": ["../../../packages/share/src/*"]
     }
   },
   "include": ["next-env.d.ts", "src/**/*"],
