@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import { Button } from 'components/button'
-import { Button as SBButton } from 'share'
+import { Button as SBButton } from 'design'
 import styles from 'styles/Home.module.css'
 
 const Home: NextPage = () => {
