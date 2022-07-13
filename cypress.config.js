@@ -1,5 +1,5 @@
 import { defineConfig } from 'cypress'
-import { findNextPort } from 'design/src/utils'
+import { findNextPort } from 'utils/src/utils'
 import packageJson from './package.json'
 
 export default defineConfig({
